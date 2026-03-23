@@ -1,12 +1,7 @@
 const express = require('express');
-const morgan = require('morgan');
-const helmet = require('helmet');
-const cors = require('cors');
-const mongoose = require('mongoose');
-
-require('dotenv').config();
-
-const middlewares = require('./middlewares');
-const logs = require('./api/logs');
-
 const app = express();
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${3000}`);
+});
