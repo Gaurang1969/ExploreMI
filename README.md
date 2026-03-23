@@ -4,11 +4,11 @@ A full stack application to store / list places you have traveled.
 
 ### TODO
 
-* [X] Setup Server
-  * [X] Install Dependencies
+* [x] Setup Server
+  * [x] Install Dependencies
   * [] Install / Setup Linter
   * [] Setup Express App
-  * [] Setup Not Found and Error Middlewares
+  *[] Setup Not Found and Error Middlewares
 * [] Model DB
   * What data will we store?
 * [] Setup Mongoose Model(s)
